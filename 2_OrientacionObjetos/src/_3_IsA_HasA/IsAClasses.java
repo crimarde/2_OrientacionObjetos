@@ -23,6 +23,15 @@ public class IsAClasses {
 		System.out.println("\nLos que no son:");
 		System.out.println("c isA Ford -> " + String.valueOf(c instanceof Ford));
 		System.out.println("c isA Coche -> " + String.valueOf(v instanceof Coche));
+		
+		// Metodos que se llama
+		System.out.println("El metodo al que se llama depende del tipo de objeto (Instance type = new object type)");
+		v.identificame();
+		vc.identificame();
+		vf.identificame();
+		c.identificame();
+		cf.identificame();
+		f.identificame();
 	}
 	
 }
