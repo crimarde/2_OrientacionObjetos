@@ -1,5 +1,8 @@
 package _2_Herencia_y_Polimirfismo;
 
+import _0_ObjetosParaEjemplos.Coche;
+import _0_ObjetosParaEjemplos.Vehiculo;
+
 public class Herencia1 {
 
 	public static void main(String... args){
@@ -20,17 +23,6 @@ public class Herencia1 {
 	}
 }
 
-class Vehiculo{
-	public void arranca(){
-		System.out.println("Vehiculo arrancado");
-	}
-}
-
-class Coche extends Vehiculo {
-	public void pita(){
-		System.out.println("El coche pita");
-	}
-}
 
 /*
  *	La herencia permite:
