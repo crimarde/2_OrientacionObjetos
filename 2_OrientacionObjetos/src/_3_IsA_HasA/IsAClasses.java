@@ -33,22 +33,21 @@ public class IsAClasses {
 		cf.identificame();
 		f.identificame();
 	}
-	
 }
 
-class Vehiculo{
+class Vehiculo_{
 	public void identificame(){
 		System.out.println("Soy un vehiculo");
 	}
 }
 
-class Coche extends Vehiculo{
+class Coche_ extends Vehiculo_{
 	public void identificame(){
 		System.out.println("Soy un coche");
 	}
 }
 
-class Ford extends Coche{
+class Ford_ extends Coche_{
 	public void identificame(){
 		System.out.println("Soy un Ford");
 	}
