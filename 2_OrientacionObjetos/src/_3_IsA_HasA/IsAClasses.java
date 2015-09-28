@@ -1,5 +1,9 @@
 package _3_IsA_HasA;
 
+import _0_ObjetosParaEjemplos.Coche;
+import _0_ObjetosParaEjemplos.Vehiculo;
+import _0_ObjetosParaEjemplos.Ford;
+
 public class IsAClasses {
 	
 	public static void main(String... args){
@@ -32,23 +36,5 @@ public class IsAClasses {
 		c.identificame();
 		cf.identificame();
 		f.identificame();
-	}
-}
-
-class Vehiculo_{
-	public void identificame(){
-		System.out.println("Soy un vehiculo");
-	}
-}
-
-class Coche_ extends Vehiculo_{
-	public void identificame(){
-		System.out.println("Soy un coche");
-	}
-}
-
-class Ford_ extends Coche_{
-	public void identificame(){
-		System.out.println("Soy un Ford");
 	}
 }
