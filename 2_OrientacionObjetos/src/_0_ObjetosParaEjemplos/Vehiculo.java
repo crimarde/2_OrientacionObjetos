@@ -10,4 +10,7 @@ public class Vehiculo {
 	public void identificame(){
 		System.out.println("Soy un vehiculo");
 	}
+	public void metodoHeredado(){
+		System.out.println("Metodo heredado");
+	}
 }

@@ -16,10 +16,16 @@ public class Herencia2 {
 		v.arranca();		//Se ejecuta el metodo de vehiculo
 		
 		Vehiculo vc = new Coche(); 		//Similar a List = new ArrayList()
-		vc.arranca();		//Se ejecuta el metodo de coche
+		vc.arranca();			//Se ejecuta el metodo de coche
+		vc.metodoHeredado();	//Metodo heredado de vehiculo
 	}
 }
-
+/*Vehiculo vc = new Coche();
+ * vc puede usar los metodos declarados en Vehiculo
+ * si cobhe sobreescribe algun metodo de vehiculo, se llama al metdo sobreescrito.
+ * 
+ * Cuando un metodo acepta un tipo de objeto, se le `puede pasar este tipo y cualquier subtipo de este
+ */
 
 
 /*
