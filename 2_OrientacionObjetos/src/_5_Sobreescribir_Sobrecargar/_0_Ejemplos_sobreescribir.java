@@ -3,7 +3,7 @@ package _5_Sobreescribir_Sobrecargar;
 import _0_ObjetosParaEjemplos.Animal;
 import _0_ObjetosParaEjemplos.Caballo;
 
-public class _0_Ejemplos {
+public class _0_Ejemplos_sobreescribir {
 
 	public static void main(String[] args) {
 		//Animal a = new Animal(); No se puede instanciar una clase abstracta
@@ -19,6 +19,9 @@ public class _0_Ejemplos {
 		c.relincha();
 		// ac no puede llamar a relincha, ya que el tipo de la referencia (Animal)
 		// no tiene el metodo relincha
+		
+		//Llamada al metodo de la clase padre
+		c.llamadaMetodoClasePadre();
 		
 		/* Reglas de sobreescritura
 		 * 

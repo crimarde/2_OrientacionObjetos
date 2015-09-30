@@ -23,5 +23,9 @@ public class Caballo extends Animal {
 	public void relincha(){
 		System.out.println("hiiiiiiii");
 	}
+	
+	public void llamadaMetodoClasePadre(){
+		super.come();
+	}
 
 }
