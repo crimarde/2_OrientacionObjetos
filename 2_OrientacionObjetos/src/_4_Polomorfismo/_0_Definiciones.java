@@ -16,7 +16,7 @@ public class _0_Definiciones {
 		//Una vez creada una variable, esta no puede cambiar de tipo, aunque si puede modificar la 
 		//referencia hacia la variable que apunta:
 		Coche c2 = new Coche();
-		v = c2;  //V nocambia sigue siendo un vehúclo, pero ahora apunta a c2 y no a c
+		v = c2;  //V no cambia sigue siendo un vehiclo, pero ahora apunta a c2 y no a c
 		
 		//La variable de referencia determina los métodos a los que el objeto puede llamar
 		//En el caso del ejemplo sólo se puede llamar alos metodos de vehiculo, aunque la variable apunte

@@ -10,6 +10,14 @@ public class Caballo extends Animal {
 		System.out.println("Caballo comiendo");
 	}
 
+	public void come(String comida){
+		System.out.println("Caballo comiendo " + comida);
+	}
+	
+	public void come(String comida, int cantidad){
+		System.out.println("Caballo comiendo " + cantidad + " uds de " + comida);
+	}
+	
 	@Override
 	public void anda() {
 		// Metodo sobreescrito forzosamente, ya que animal es abstracto,
